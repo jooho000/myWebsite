@@ -7,226 +7,173 @@
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
 </head>
 <body>
 
-    <header class="header">
-        <a href="about" class="logo">JH's Portfolio</a>
-        <nav class="navbar">
-            <a href="#home" >Home</a>
-            <a href="#about" >About</a>
-            <a href="#skills" >Skills</a>
-            <a href="#repositories" >Projects</a>
-            <a href="#contact" >Contact</a>
-        </nav>
-    </header>
+<header class="header">
+    <a href="about" class="logo">JH's Portfolio</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#repositories">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <section class="home" id="home">
-        <div class="home-content">
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, my name is Jooho</h3>
+        <h3>and I'm a <span class="text"></span></h3>
+        <p>Welcome to my website, a place where you can find information about me</p>
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/jooho0801" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/jooho000" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github'></i></a>
+        </div>
+    </div>
+    <span class="home-imgHover"></span>
+</section>
 
-            <h3>Hello, my name is Jooho</h3>
-            <h3>and I'm a <span class="text"></span></h3>
-            <p>Welcome to my website, a place where you can find information about me</p>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="IMG_0890.jpg">
+    </div>
+    <div class="about-txt">
+        <h2>About Me</h2>
+        <p>
+            I was born and raised in Guatemala, and grew up in both Korean and Guatemalan culture. I moved to California in 2017
+            at the age of 15 and started programming then. Thanks to moving around a lot, I am fluent in English, Korean, Spanish, and
+            Japanese. In 2020 I graduated from high school and started attending College of the Canyons with the intent to transfer to a 4-year institution later on. In 
+            2023 I transferred to University of California Santa Cruz into the computer science program. There I learned my foundations of programming 
+            and started most of my major projects that can be found in my GitHub page.
+        </p>
+        <a href="#" class="btn-box">More About Me</a>
+    </div>
+</section>
 
-            <div class="home-sci">
-                <a href="https://www.linkedin.com/in/jooho0801" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/jooho000" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
+<section>
+    <div class="skills" id="skills">
+        <div class="skillContainer">
+            <h1 class="sub-title">My Technical Skills</h1>
+            <div class="skills-list">
+                <div><i class='bx bxl-python'></i><h2>Python</h2></div>
+                <div><i class='bx bxl-c-plus-plus'></i><h2>C/C++</h2></div>
+                <div><i class='bx bxl-java'></i><h2>Java</h2></div>
+                <div><i class='bx bxl-javascript'></i><h2>JavaScript</h2></div>
+                <div><i class='bx bxl-html5'></i><h2>HTML</h2></div>
+                <div><i class='bx bxl-css3'></i><h2>CSS</h2></div>
+                <div><i class='bx bxl-git'></i><h2>Git</h2></div>
+                <div><i class='bx bx-server'></i><h2>Linux</h2></div>
+                <div><i class='bx bxl-postgresql'></i><h2>SQL</h2></div>
+            </div>
+
+            <h1 class="sub-title">Languages</h1>
+            <div class="langList">
+                <div><h2>Korean</h2></div>
+                <div><h2>Spanish</h2></div>
+                <div><h2>English</h2></div>
+                <div><h2>Japanese</h2></div>
             </div>
         </div>
-        <span class="home-imgHover"></span>
-    </section>
+    </div>
+</section>
 
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="IMG_0890.jpg">
-        </div>
-        <div class="about-txt">
-            <h2>About Me</h2>
-            <p>
-                I was born and raised in Guatemala, and grew up in both Korean and Guatemalan culture. I moved to California in 2017
-                at the age of 15 and started programming then. Thanks to moving around a lot, I am fluent in English, Korean, Spanish, and
-                Japanese. In 2020 I graduated from Highschool and started attending College of the Canyons with the intent to transer to a 4-year insitution later on. In 
-                2023 I transferred to University of California Santa Cruz into the computer sceince program. There I learned my foundations of programming 
-                and started most of my major projects that can be found in my Github page.
-            </p>
-            <a href="#" class="btn-box">More About Me</a>
-        </div>
-    </section>
+<section>
+    <div class="repositories" id="repositories">
+        <div class="container">
+            <h1 class="sub-title">My Repositories and Projects</h1>
+            <div class="repo-list">
 
-    <section>
-        <div class="skills" id="skills">
-            <div class="skillContainer">
-                <h1 class="sub-title">My Technical Skills</h1>
-                <div class="skills-list">
-
-                    <div>
-                        <i class='bx bxl-python' ></i>
-                        <h2>Python</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-c-plus-plus' ></i>
-                        <h2>C/C++</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-java' ></i>
-                        <h2>Java</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-javascript' ></i>
-                        <h2>JavaScript</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-html5' ></i>
-                        <h2>HTML</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-css3' ></i>
-                        <h2>CSS</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-git' ></i>
-                        <h2>Git</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bx-server' ></i>
-                        <h2>Linux</h2>
-                    </div>
-
-                    <div>
-                        <i class='bx bxl-postgresql' ></i>
-                        <h2>SQL</h2>
-                    </div>
-
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Snippet Oracle</h2>
+                    <p>
+                        A collaborative web application where users can save and share code snippets with multiple users.
+                    </p>
+                    <p><strong>Tech: JavaScirpt, HTML/CSS, Python, Flask, SQLite</strong></p>
+                    <a href="https://github.com/jooho000/Snippet-Oracle" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
                 </div>
-
-                <h1 class="sub-title">Langauges</h1>
-                <div class="langList">
-
-                    <div>
-                        <h2>Korean</h2>
-                    </div>
-
-                    <div>
-                        <h2>Spanish</h2>
-                    </div>
-
-                    <div>
-                        <h2>English</h2>
-                    </div>
-
-                    <div>
-                        <h2>Japanese</h2>
-                    </div>
-
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Java Programs</h2>
+                    <p>My undergrad Java program repository!</p>
+                    <p><strong>Tech: Java</strong></p>
+                    <a href="https://github.com/jooho000/Java_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
                 </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="repositories" id="repositories">
-            <div class="container">
-                <h1 class="sub-title">My Repositories and Projects</h1>
-                <div class="repo-list">
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>Java Programs</h2>
-                        <p>
-                            My undergrad Java program repository!
-                        </p>
-                        <a href="https://github.com/jooho000/Java_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>Liverbot</h2>
-                        <p>
-                            My discord bot made for me and my friends
-                        </p>
-                        <a href="https://github.com/jooho000/Liverbot" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>C/C++ Programs</h2>
-                        <p>
-                            My undergrad C/C++ program repository!
-                        </p>
-                        <a href="https://github.com/jooho000/CandCPP" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>Python Programs</h2>
-                        <p>
-                            My undergrad Python program repository!
-                        </p>
-                        <a href="https://github.com/jooho000/Python_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>Pacman AI</h2>
-                        <p>
-                            Berkley AI Lab project
-                        </p>
-                        <a href="https://github.com/jooho000/pacman" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>JavaScript Programs</h2>
-                        <p>
-                            My undergrad JavaScript program repository!
-                        </p>
-                        <a href="https://github.com/jooho000/JavaScript_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>My website Repository</h2>
-                        <p>
-                            Repository for this website
-                        </p>
-                        <a href="https://github.com/jooho000/myWebsite" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
-                    <div>
-                        <i class="bx bxl-github" style="color: aliceblue;"></i>
-                        <h2>Tetris Game</h2>
-                        <p>
-                            Repository for Tetris game, written in C++
-                        </p>
-                        <a href="https://github.com/jooho000/Tetris" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
-                    </div>
-
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Liverbot</h2>
+                    <p>My discord bot made for me and my friends</p>
+                    <p><strong>Tech: Python, Discord API</strong></p>
+                    <a href="https://github.com/jooho000/Liverbot" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
                 </div>
-            </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>C/C++ Programs</h2>
+                    <p>My undergrad C/C++ program repository!</p>
+                    <p><strong>Tech: C, C++</strong></p>
+                    <a href="https://github.com/jooho000/CandCPP" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Python Programs</h2>
+                    <p>My undergrad Python program repository!</p>
+                    <p><strong>Tech: Python</strong></p>
+                    <a href="https://github.com/jooho000/Python_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Pacman AI</h2>
+                    <p>Berkeley AI Lab project</p>
+                    <p><strong>Tech: Python</strong></p>
+                    <a href="https://github.com/jooho000/pacman" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>JavaScript Programs</h2>
+                    <p>My undergrad JavaScript program repository!</p>
+                    <p><strong>Tech: JavaScript</strong></p>
+                    <a href="https://github.com/jooho000/JavaScript_Stuff" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>My website Repository</h2>
+                    <p>Repository for this website</p>
+                    <p><strong>Tech: HTML, CSS, JavaScript</strong></p>
+                    <a href="https://github.com/jooho000/myWebsite" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+                <div>
+                    <i class="bx bxl-github" style="color: aliceblue;"></i>
+                    <h2>Tetris Game</h2>
+                    <p>Repository for Tetris game, written in Python</p>
+                    <p><strong>Tech: Python</strong></p>
+                    <a href="https://github.com/jooho000/Tetris" target="_blank" rel="noopener noreferrer" class="read">learn more</a>
+                </div>
+            
+            </div>            
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="contact" id="contact">
-
-        <div class="contact-txt">
-            <h2>Contact Me</h2>
-            <div class="contact-list">
-                <li><i class='bx bxl-gmail' ></i>jlee30112562@gmail.com</li>
-                <li><i class='bx bxl-linkedin' ></i>www.linkedin.com/in/jooho0801</li>
-                <li><i class='bx bxl-discord' ></i>jooho1</li>
-            </div>
+<section class="contact" id="contact">
+    <div class="contact-txt">
+        <h2>Contact Me</h2>
+        <div class="contact-list">
+            <li><i class='bx bxl-gmail'></i>jlee30112562@gmail.com</li>
+            <li><i class='bx bxl-linkedin'></i>www.linkedin.com/in/jooho0801</li>
+            <li><i class='bx bxl-discord'></i>jooho1</li>
         </div>
-    </section>
+    </div>
+</section>
 
-    <script src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
